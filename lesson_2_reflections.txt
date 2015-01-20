@@ -7,3 +7,12 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
     
     Staged files are ready to be committed, can add and remove from staging before committing them
+
+How can you use the stagint area to make sure you have one commit per logical change?
+    You can diff the staging area with the repository and evaluate all changes made to be sure they are one logical change.
+    To remove a file from staging: git reset HEAD <filename>
+
+What  are some situations when branches would be helpful in keeping your history organized? How would branches help? 
+    Making one branch for feature allows easy merging of features and keeps the main code in a working state
+
+
