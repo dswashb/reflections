@@ -3,3 +3,7 @@
     Git starts tracking changes to the directory
     Creates .git folder
     Need to do it in order to track the files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    
+    Staged files are ready to be committed, can add and remove from staging before committing them
